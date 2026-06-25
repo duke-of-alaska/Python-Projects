@@ -1,10 +1,10 @@
 # Python-Projects
 
 ## What is this?
-My entire history of python, from beginner to advanced.
+My entire history of python projects.
 
-## Will this go public?
-Potentially, I haven't decided yet.
+## Installation
+Later I'll fix this
 
 ## Will this be finished?
 Yes

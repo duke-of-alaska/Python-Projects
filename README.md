@@ -4,7 +4,9 @@
 My entire history of python projects.
 
 ## Installation
-Later I'll fix this
+```bash
+git clone https://github.com/duke-of-alaska/Python-Projects.git
+```
 
 ## Will this be finished?
 Yes

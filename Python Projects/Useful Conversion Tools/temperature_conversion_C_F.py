@@ -14,15 +14,15 @@ while True:
     if choice == "1":
         temperature = float(input("Enter temperature (in °C): "))
         calculation = (temperature * 9/5) + 32
-        result = f"{calculation:.3f}°F"
+        result = f"{temperature}°C = {calculation:.3f}°F"
 
     elif choice == "2":
         temperature = float(input("Enter temperature (in °F): "))
         calculation = (temperature - 32) * 5/9
-        result = f"{calculation:.3f}°C"
+        result = f"{temperature}°F = {calculation:.3f}°C"
 
     elif choice == "3":
-        result = "test"
+        break
 
     else:
         result = "An error occurred"

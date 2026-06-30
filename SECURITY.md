@@ -10,5 +10,6 @@ The current version (0.0.1) is supported.
 
 ## Reporting a Vulnerability
 
-Please report security vulnerabilities by emailing me.
-Email: [EMAIL_ADDRESS]
+Please report security vulnerabilities by opening a Private Security Advisory under the **Security** tab of this repository.
+
+Please do not open a public issue for security flaws.

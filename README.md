@@ -1,7 +1,7 @@
 # Python-Projects
 
 ## What is this?
-My entire history of python projects.
+My projects related to Python.
 
 ## Installation
 

@@ -7,4 +7,4 @@ n = int(input("Enter the amount of times the interest is compounded per year: ")
 t = float(input("Enter the time in years: "))
 
 a = p*(1+(r/n))**(n*t)
-print(f"${a:,.2f}")
+print("${:,.2f}".format(a))

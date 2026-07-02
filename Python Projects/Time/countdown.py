@@ -16,6 +16,9 @@ while True:
 
         if timechoice == "1":
             length = float(input("\nHow long do you want the countdown to be (in minutes)? "))
+            if length <= 0:
+                print("Please enter a positive number.")
+                continue
             seconds = length * 60
             while seconds > 0:
                 print(f"Seconds remaining: {seconds}")
@@ -25,6 +28,9 @@ while True:
 
         elif timechoice == "2":
             length = float(input("\nHow long do you want the countdown to be (in minutes)? "))
+            if length <= 0:
+                print("Please enter a positive number.")
+                continue
             seconds = length * 60
 
             while seconds > 0:
@@ -37,7 +43,7 @@ while True:
             break
 
         else:
-            print("Invald input.")
+            print("Invalid input.")
 
     except ValueError:
-        print("Please input an integer")
+        print("Please input a valid number.")
